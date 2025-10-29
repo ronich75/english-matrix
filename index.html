@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
     <title>English Matrix</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        
+        /* ⭐ ВАЖНОЕ ИСПРАВЛЕНИЕ ⭐ */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
         
         body { 
-            background: #667eea;
+            background: #667eea; /* Fallback цвет */
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-attachment: fixed; /* Фиксируем градиент */
             min-height: 100vh;
+            color: white;
+            font-family: Arial, sans-serif;
         }
         
         .test-box {
@@ -21,6 +32,8 @@
             padding: 40px;
             border-radius: 20px;
             text-align: center;
+            margin: 50px auto;
+            max-width: 600px;
         }
     </style>
 </head>
@@ -34,6 +47,3 @@
     </div>
 </body>
 </html>
-
-
-
