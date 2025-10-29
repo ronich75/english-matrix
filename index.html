@@ -8,14 +8,9 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            /* ПРОСТОЙ СИНИЙ ЦВЕТ ДЛЯ ТЕСТА */
-            background: #667eea;
+            background: #667eea; /* Fallback */
+            background: linear-gradient(to bottom, #667eea, #764ba2);
             min-height: 100vh;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         
         .test-box {
@@ -36,3 +31,4 @@
     </div>
 </body>
 </html>
+
