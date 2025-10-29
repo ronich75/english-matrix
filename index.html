@@ -50,10 +50,44 @@
         .feature-icon { font-size: 2.5rem; margin-bottom: 15px; }
         .feature h3 { font-size: 1.3rem; margin-bottom: 10px; }
         footer { text-align: center; padding: 40px 20px; opacity: 0.8; }
+        .r-modern {
+            width: 60px; height: 60px;
+            background: #FF6B35; /* оранжевый как в твоей теме */
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .r-modern::before {
+            content: '';
+            position: absolute;
+            top: -10px; right: -10px;
+            width: 30px; height: 30px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+        }
+        .r-text {
+            color: white;
+            font-weight: bold;
+            font-size: 28px;
+            font-family: 'Arial', sans-serif;
+            z-index: 2;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="logo">
+            <div class="r-modern">
+                <span class="r-text">R</span>
+            </div>
+            <div class="logo-text">
+                <h1>Language Matrix</h1>
+                <div class="tagline">by ronich</div>
+            </div>
+        </div>
         <header>
             <h1>🎯 English Matrix by ronich</h1>
             <p class="subtitle">AI-тренажер английской грамматики для серьезных результатов</p>
@@ -109,5 +143,6 @@
 </html>
 </body>
 </html>
+
 
 
