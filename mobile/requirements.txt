@@ -1,0 +1,5 @@
+kivy==2.1.0
+kivymd==1.1.1
+requests==2.31.0
+pygame==2.5.0
+gtts==2.3.2
