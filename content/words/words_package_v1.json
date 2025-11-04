@@ -1,0 +1,20 @@
+{
+  "book": {
+    "type": "NOUN",
+    "transcription": "[bʊk]",
+    "translations": {"singular": "книга"},
+    "level": 1
+  },
+  "understand": {
+    "type": "VERB",
+    "transcription": "[ˌʌndərˈstænd]",
+    "translations": {"infinitive": "понимать"},
+    "level": 2
+  },
+  "read": {
+    "type": "VERB",
+    "transcription": "[riːd]",
+    "translations": {"infinitive": "читать"},
+    "level": 2
+  }
+}
