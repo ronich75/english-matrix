@@ -1,0 +1,4 @@
+content_version=1.0.0
+required_app_version=1.0.0
+release_date=2024-01-15
+changelog=Первая версия контента;16 базовых слов;3 глагола
